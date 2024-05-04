@@ -9,22 +9,22 @@ Fonts are separated by a & */
   --primary-color: #2CB054  ;
   --secondary-color: #2C5FB0 ;
   --accent1-color: #66B0AF;
-  --accent2-color: #000000;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Ribeye Marrow", serif;
   --paragraph-font: Georgia, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #2C5FB0;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #2C5FB0; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --paragraph-background-color: #2C5FB0  ;
+  --nav-link-color: #2C5FB0;
+  --nav-background-color: #66B0AF;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #2C5FB0;
 }
 
 
