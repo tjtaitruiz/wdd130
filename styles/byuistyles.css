@@ -1,0 +1,36 @@
+body {
+    margin:0;
+}
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+a {
+    font-size: 1.5em;
+}
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+p {
+    width: 80%;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
