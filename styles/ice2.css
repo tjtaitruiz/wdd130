@@ -1,3 +1,6 @@
+* {
+    border: 2px solid blue;
+}
 body {
     background-color:#737373 ;
     margin: 0;
@@ -9,7 +12,11 @@ body {
 }
 .icon {
     border-radius: 100%;
-    border-color:#343434;
-    width: 300px;
-
+    width: 22%;
+    border: 10px solid #444444;
+}
+.box {
+    display: inline;
+    text-align: center;
+    width: 33%;
 }
