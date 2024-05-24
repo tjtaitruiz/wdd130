@@ -1,6 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Ribeye+Marrow&display=swap");
 #content{
     max-width: 1600px;
     margin: 0 auto;
+}
+h1,h2{
+    font-family:"Ribeye Marrow", serif;
+}
+h2{
+    margin: 0;
+}
+p{
+    font-family: Georgia, Helvetica, sans-serif;
+}
+body{
+    font-size: 22px;
+    margin:0;
+    padding: 0;
 }
 #background {
     height: 725px;
@@ -12,6 +27,7 @@ header{
 nav a{
     text-align: center;
     text-decoration: none;
+    font-family: Georgia, Helvetica, sans-serif;
 }
 nav a :hover{
     background-color: #2C5FB0;
@@ -23,9 +39,13 @@ nav a :hover{
 .icon{
     width: 80px;
 }
+.home-title{
+    font-size: 2em;
+}
 .book, .join{
     background-color: #66B0AF;
     text-decoration: none;
+    font-size: 10px;
 }
 .book:hover, .join:hover{
     background-color: #2C5FB0;
@@ -39,6 +59,10 @@ nav a :hover{
 }
 .msg{
     background-color: #66B0AF;
+    line-height: 1.5em;
+}
+.msg p{
+    font-size: .8em;
 }
 .button-box{
     text-align: center;
