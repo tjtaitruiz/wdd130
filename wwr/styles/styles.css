@@ -28,6 +28,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     font-family: Georgia, Helvetica, sans-serif;
+    padding: 35px;
 }
 nav a :hover{
     background-color: #2C5FB0;
@@ -36,16 +37,24 @@ nav a :hover{
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .home-title{
     font-size: 2em;
+    margin-top: 10px;
 }
 .book, .join{
     background-color: #66B0AF;
     text-decoration: none;
     font-size: 10px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #2C5FB0;
@@ -60,9 +69,14 @@ nav a :hover{
 .msg{
     background-color: #66B0AF;
     line-height: 1.5em;
+    padding: 35px;
 }
 .msg p{
     font-size: .8em;
+    padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 .button-box{
     text-align: center;
@@ -72,12 +86,17 @@ main section{
 }
 footer{
     background-color: #2CB054;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     text-decoration: none;
 }
 footer p {
     font-size: 1.2em;
+}
+footer .social img{
+    padding-top: 15px;
 } 
 footer p a:hover{
     text-decoration: underline;
