@@ -212,3 +212,33 @@ footer p a:hover{
         margin-top: 25px;
     }
 }
+#faq-hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#faq-hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#faq-hero-img{
+    width: 100%;
+}
+#faq-hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#faq-hero-msg h1, #faq-hero-msg h4{
+    text-align: center;
+    color: black;
+    font: size 700px;
+}
+.question{
+    margin-top: 30px;
+    text-align: center;
+}
+.answer{
+    text-align: left;
+}
